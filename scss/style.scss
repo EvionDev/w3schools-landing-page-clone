@@ -260,6 +260,9 @@ body {
                 &.reference{
                     background: $body-color;
                     color: #fff;
+                    &:hover {
+                        background: #000
+                    }
                 }
             }
         }
@@ -540,7 +543,7 @@ body {
 
 .libraries {
     width: 100%;
-    height: 2000px;
+    height: auto;
     @include flex(column);
     justify-content: flex-start;
     background: $body-color;
@@ -586,6 +589,9 @@ body {
                 outline: none;
                 border: none;
                 border-radius: 25px;
+                &:hover {
+                    background: $fl-black !important;
+                }
             }
     
             &.php {
@@ -623,23 +629,50 @@ body {
             padding: 24px 30px;
             border-radius: 8px;
             box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-            font-size: 30px;
+            font-size: 27px;
             font-weight: 500;
             @include flex(row);
             &.red {
+                opacity: 0.9;
                 background: $danger-color;
+                &:hover{
+                    opacity: 1;
+                }
             }
             &.yellow {
+                opacity: 0.9;
                 background: $alert-color;
+                &:hover{
+                    opacity: 1;
+                }
             }
             &.grey {
+                opacity: 0.9;
                 background: $muted-color;
+                &:hover{
+                    opacity: 1;
+                }
             }
             &.green {
+                opacity: 0.9;
                 background: $decayed-color;
+                &:hover{
+                    opacity: 1;
+                }
             }
             &.blue {
+                opacity: 0.9;
                 background: $aqua-color;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+            &.gray {
+                opacity: 0.9;
+                background: $brighter-grey;
+                &:hover{
+                    opacity: 1;
+                }
             }
             
         }
