@@ -488,6 +488,10 @@ body {
   position: relative;
 }
 
+.box .content .buttons .btn.video:hover {
+  background: #fff080;
+}
+
 .box .content .buttons .btn.video::before {
   position: absolute;
   font-size: 16px;

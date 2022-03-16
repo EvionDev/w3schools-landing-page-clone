@@ -244,6 +244,9 @@ body {
                 &.video{
                     background: $css-color;
                     position: relative;
+                    &:hover{
+                        background: $vidh-color;
+                    }
                     &::before {
                         position: absolute;
                         font-size: 16px;
