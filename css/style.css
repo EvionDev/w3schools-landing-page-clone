@@ -1101,6 +1101,7 @@ body {
 }
 
 .libraries .tools .lang {
+  min-width: 425px;
   max-width: 610px;
   width: 100%;
   height: 113px;
