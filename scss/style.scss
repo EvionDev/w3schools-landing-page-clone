@@ -687,7 +687,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         place-items: center;
-        padding: 100px 0;
+        padding: 50px 0;
         column-gap: 50px;
         row-gap: 60px;
         width: 69%;
@@ -743,5 +743,89 @@ body {
             }
         }
     }
+}
+
+.block {
+    width: 100%;
+    height: auto;
+    padding: 30px 3px 85px 3px;
+    background-color: $js-color;
+    color: white;
+    @include flex(column);
+    .under-block {
+        max-width: 975px;
+        padding: 8px 18px;
+    }
+    .text-block {
+        text-align: center;
+    }
+    .text-block > h1 {
+        font-size: 65px;
+        font-weight: 700;
+    }
+    .text-block > h4 {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    .vid-row {
+        width: 942px;
+        padding: 10px;
+        background: #f1f1f1;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .con-left{
+            width: 20%;
+            float: left;
+            .dot {
+                margin-top: 5px;
+                height: 15px;
+                width: 15px;
+                border-radius: 50px;
+                display: inline-block;
+                margin-left: 3px;
+                &.red {
+                    background: #ED594A;
+                }
+                &.yellow {
+                    background: #FDD800;
+                }
+                &.green {
+                    background: #5AC05A;
+                }    
+            }
+        }
+        .con-right {
+            width: 80%;
+            float: left;
+            .in-right {
+                width: 80%;
+                border-radius: 3px;
+                border: none;
+                background-color: #fff;
+                margin-top: -8px;
+                height: 22px;
+                color: #666;
+                font-size: 14px;
+                padding: 5px;
+            }
+        }
+    }
+    .vid-img {
+        display: block;
+    }
+    .vid-img > img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
 }
 
