@@ -922,6 +922,7 @@ body {
     background-color: $w3css-color;
     padding: 40px 0;
     text-align: center;
+
     .un-game {
         padding: 3%;
         & > h1 {
@@ -955,6 +956,91 @@ body {
             &:hover {
                 background: #000;
             }
+        }
+    }
+}
+
+.excer {
+    width: 100%;
+    height: auto;
+    padding:70px 0;
+    color: #fff;
+    text-align: center;
+    background: #222633 url("/imgs/w3codes.png") no-repeat fixed center;
+    & > h2 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .un-excer {
+        max-width: 1350px;
+        padding: 0 8px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .block-ex {
+            padding: 0 8px;
+            width: 100%;
+            & > p {
+                margin: 1.2em 0;
+                text-align: center;
+                font-size: 35px;
+                padding: 70px 50px;
+                opacity: 0.95;
+                width: 87%;
+                border-radius: 5px;
+                cursor: pointer;
+                display: inline-block;
+                &.green {
+                    background-color: $primary-color;
+                    &:hover {
+                        background-color: $secondary-color;
+                    }
+                }
+                &.yellow {
+                    background-color: $alert-color;
+                    color: #000;
+                    &:hover{
+                        background-color: $vidh-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.wb-temp {
+    width: 100%;
+    height: auto;
+    background-color: $brighter-grey;
+    text-align: center;
+    padding: 65px 25px 90px 24px;
+    & > h2 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    & > h4 {
+        font-size: 20px;
+    }
+    .image{
+        max-width: 980px;
+        margin: auto;
+        & > img {
+            width: 100%;
+            margin: 16px 0 20px 0;
+            cursor: pointer;
+        }
+    }
+    .btn-temp {
+        width: 50%;
+        background-color: $body-color;
+        color: #fff;
+        font-size: 18px;
+        margin: auto;
+        display: block;
+        border-radius: 25px;
+        padding: 16px 0;
+        cursor: pointer;
+        &:hover{
+            background-color: #000;
         }
     }
 }

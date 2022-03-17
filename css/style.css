@@ -1427,3 +1427,105 @@ body {
 .cod-game .un-game .btn-game:hover {
   background: #000;
 }
+
+.excer {
+  width: 100%;
+  height: auto;
+  padding: 70px 0;
+  color: #fff;
+  text-align: center;
+  background: #222633 url("/imgs/w3codes.png") no-repeat fixed center;
+}
+
+.excer > h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.excer .un-excer {
+  max-width: 1350px;
+  padding: 0 8px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.excer .un-excer .block-ex {
+  padding: 0 8px;
+  width: 100%;
+}
+
+.excer .un-excer .block-ex > p {
+  margin: 1.2em 0;
+  text-align: center;
+  font-size: 35px;
+  padding: 70px 50px;
+  opacity: 0.95;
+  width: 87%;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.excer .un-excer .block-ex > p.green {
+  background-color: #04AA6D;
+}
+
+.excer .un-excer .block-ex > p.green:hover {
+  background-color: #059862;
+}
+
+.excer .un-excer .block-ex > p.yellow {
+  background-color: #FFF4A3;
+  color: #000;
+}
+
+.excer .un-excer .block-ex > p.yellow:hover {
+  background-color: #fff080;
+}
+
+.wb-temp {
+  width: 100%;
+  height: auto;
+  background-color: #E7E9EB;
+  text-align: center;
+  padding: 65px 25px 90px 24px;
+}
+
+.wb-temp > h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.wb-temp > h4 {
+  font-size: 20px;
+}
+
+.wb-temp .image {
+  max-width: 980px;
+  margin: auto;
+}
+
+.wb-temp .image > img {
+  width: 100%;
+  margin: 16px 0 20px 0;
+  cursor: pointer;
+}
+
+.wb-temp .btn-temp {
+  width: 50%;
+  background-color: #282A35;
+  color: #fff;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.wb-temp .btn-temp:hover {
+  background-color: #000;
+}
