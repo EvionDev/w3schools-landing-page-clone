@@ -682,6 +682,10 @@ body {
 
 .javaScript .buttons .btn.reference {
   color: #000 !important;
+  background: #fff !important;
+}
+
+.javaScript .buttons .btn.reference:hover {
   background: #E7E9EB !important;
 }
 
@@ -1080,5 +1084,88 @@ body {
 }
 
 .libraries .languages_menu .language.gray:hover {
+  opacity: 1;
+}
+
+.libraries .tools {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding: 100px 0;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 60px;
+  width: 69%;
+}
+
+.libraries .tools .lang {
+  max-width: 610px;
+  width: 100%;
+  height: 113px;
+  padding: 24px 30px;
+  border-radius: 8px;
+  font-size: 27px;
+  font-weight: 500;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.libraries .tools .lang.gray {
+  opacity: 0.9;
+  background: #E7E9EB;
+}
+
+.libraries .tools .lang.gray:hover {
+  opacity: 1;
+}
+
+.libraries .tools .lang.blue {
+  opacity: 0.9;
+  background: #8BC3C4;
+}
+
+.libraries .tools .lang.blue:hover {
+  opacity: 1;
+}
+
+.libraries .tools .lang.yellow {
+  opacity: 0.9;
+  background: #FFF4A3;
+}
+
+.libraries .tools .lang.yellow:hover {
+  opacity: 1;
+}
+
+.libraries .tools .lang.green {
+  opacity: 0.9;
+  background: #D9EEE1;
+}
+
+.libraries .tools .lang.green:hover {
+  opacity: 1;
+}
+
+.libraries .tools .lang.red {
+  opacity: 0.9;
+  background: #E9B1B8;
+}
+
+.libraries .tools .lang.red:hover {
   opacity: 1;
 }

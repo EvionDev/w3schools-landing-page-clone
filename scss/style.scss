@@ -399,7 +399,10 @@ body {
     .buttons {
         .btn.reference {
             color: #000 !important;
-            background: #E7E9EB !important  ;
+            background: #fff !important;
+            &:hover{
+                background: $brighter-grey !important;
+            }
         }
     }
     .example {
@@ -680,6 +683,64 @@ body {
             
         }
     }
+    .tools {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        padding: 100px 0;
+        column-gap: 50px;
+        row-gap: 60px;
+        width: 69%;
+        .lang {
+        max-width: 610px;
+        width: 100%;
+        height: 113px;
+        padding: 24px 30px;
+        border-radius: 8px;
+        font-size: 27px;
+        font-weight: 500;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        @include flex(row);
+        &.gray {
+            opacity: 0.9;
+            background: $brighter-grey;
+            &:hover{
+                opacity: 1;
+            }
+        }
 
+        &.blue {
+            opacity: 0.9;
+            background: $aqua-color;
+            &:hover{
+                opacity: 1;
+                }
+            }
+
+            &.yellow {
+                opacity: 0.9;
+                background: $alert-color;
+             &:hover{
+                    opacity: 1;
+                }
+            }
+
+            &.green {
+                opacity: 0.9;
+                background: $decayed-color;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+
+            &.red {
+                opacity: 0.9;
+                background: $danger-color;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
+    }
 }
 
