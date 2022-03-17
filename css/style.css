@@ -1501,6 +1501,7 @@ body {
 
 .wb-temp > h4 {
   font-size: 20px;
+  font-weight: 400;
 }
 
 .wb-temp .image {
@@ -1528,4 +1529,34 @@ body {
 
 .wb-temp .btn-temp:hover {
   background-color: #000;
+}
+
+.kick {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 64px;
+  background-color: #282A35;
+  color: #FFC0C7;
+}
+
+.kick > h2 {
+  font-size: 62px;
+  margin: 1em 0;
+}
+
+.kick > p {
+  font-size: 52px;
+  margin: 1em 0;
+}
+
+.kick .btn-kk {
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: center;
+  padding: 17px 55px;
+  cursor: pointer;
+  background-color: #04AA6D;
+  color: #fff;
+  margin-bottom: 15px;
 }
