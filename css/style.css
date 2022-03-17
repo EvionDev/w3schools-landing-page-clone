@@ -1347,3 +1347,32 @@ body {
 .bg-space .bg-un .bg-btn:hover {
   background: #059862;
 }
+
+.col-pick {
+  width: 100%;
+  height: auto;
+  background-color: #F3ECEA;
+  color: #000;
+  padding: 80px 0 95px 0;
+  text-align: center;
+}
+
+.col-pick .col-un > h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.col-pick .col-un > h4 {
+  margin-top: 25px;
+}
+
+.col-pick .img-pick {
+  width: 150px;
+  height: 130px;
+  margin-top: 26px;
+  cursor: pointer;
+}
+
+.col-pick .img-pick:hover {
+  opacity: 0.6;
+}

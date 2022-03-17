@@ -888,3 +888,30 @@ body {
 
     }
 }
+
+.col-pick {
+    width: 100%;
+    height: auto;
+    background-color: $muted-color;
+    color: #000;
+    padding: 80px 0 95px 0;
+    text-align: center;
+    .col-un {
+        & > h1 {
+            font-size: 65px;
+            font-weight: 700;
+        }
+        & >h4 {
+        margin-top: 25px;
+        }
+    }
+    .img-pick {
+        width: 150px;
+        height: 130px;
+        margin-top: 26px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
