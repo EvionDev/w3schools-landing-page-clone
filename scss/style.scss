@@ -851,3 +851,40 @@ body {
     }
 }
 
+.bg-space {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    background:  url("/imgs/back2.jpg") no-repeat fixed center;
+    .bg-un {
+        background-color: $body-color;
+        opacity: 0.95;
+        padding: 85px 20px;
+        & > h1 {
+            font-size: 65px;
+            font-weight: 700;
+            margin: 2px 0 -20px 0 !important;
+        }
+        & > h3 {
+            margin-top: 35px;
+        }
+        .bg-btn {
+            margin-top: 15px;
+            margin-bottom: 18px;
+            font-size: 22px;
+            width: 300px;
+            padding: 11px 18px;
+            background-color: $primary-color;
+            border-radius: 25px;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+            opacity: 0.95;
+            &:hover {
+                background: $secondary-color;
+            }
+        }
+
+    }
+}
