@@ -769,7 +769,7 @@ body {
     }
 
     .vid-row {
-        width: 942px;
+        width: 939px;
         padding: 10px;
         background: #f1f1f1;
         border-top-left-radius: 4px;
@@ -827,5 +827,27 @@ body {
         border-bottom-right-radius: 4px;
     }
 
+    .btn {
+        font-size: 18px;
+        text-align: left;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 6px 18px;
+        text-decoration: none;
+        background-color: $primary-color;
+        cursor: pointer;
+        &:hover {
+            background: $secondary-color;
+        }
+        &.yellow {
+            background-color: $alert-color;
+            color: #000;
+            &:hover{
+                background: #fff080;
+            }
+        }
+    }
 }
 
