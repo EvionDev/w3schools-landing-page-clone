@@ -357,6 +357,7 @@ body {
 }
 
 .search .searchBtn .logo {
+  cursor: pointer;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   height: 100%;
@@ -473,6 +474,7 @@ body {
   border: none;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .box .content .buttons .btn.learn {
@@ -566,6 +568,7 @@ body {
   border: none;
   outline: none;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .box .example .btn:hover {
@@ -684,6 +687,7 @@ body {
 .javaScript .buttons .btn.reference {
   color: #000 !important;
   background: #fff !important;
+  cursor: pointer;
 }
 
 .javaScript .buttons .btn.reference:hover {
@@ -966,6 +970,7 @@ body {
   outline: none;
   border: none;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .libraries .languages .library .btn:hover {
@@ -1032,6 +1037,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  cursor: pointer;
 }
 
 .libraries .languages_menu .language.red {
@@ -1125,6 +1131,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  cursor: pointer;
 }
 
 .libraries .tools .lang.gray {
@@ -1609,4 +1616,64 @@ footer .blocks > nav > a {
 
 footer .blocks > nav > a:hover {
   color: #4CAF50;
+}
+
+footer .icons {
+  padding: 40px 0;
+  color: #fff;
+}
+
+footer .icons .rounded {
+  border-radius: 5px;
+  float: right;
+  font-size: 24px;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+footer .icons .rounded:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+footer .text {
+  font-size: 15px;
+  margin: 18px 0;
+  padding: 15px;
+}
+
+footer .text a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer .text a:hover {
+  color: #04AA6D;
+}
+
+footer .hand {
+  padding: 40px 0;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+footer .hand:hover {
+  opacity: 0.6;
+}
+
+footer .btn {
+  padding: 12px 28px;
+  width: 930px;
+  background-color: #04AA6D;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer .btn:hover {
+  background-color: #059862;
 }
